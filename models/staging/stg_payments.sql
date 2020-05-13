@@ -4,5 +4,5 @@ select
 "paymentMethod" as payment_method,
 amount,
 created,
-"_BATCHED_AT_" as batched_at
+"_BATCHED_AT" as batched_at
 from {{ source('stripe', 'payment') }}
