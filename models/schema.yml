@@ -2,11 +2,13 @@ version: 2
 
 sources:
   - name: jaffle_shop
+    schema: raw
     tables:
       - name: orders
       - name: customers
   
   - name: stripe
+    schema: raw
     tables:
       - name: payment
     
