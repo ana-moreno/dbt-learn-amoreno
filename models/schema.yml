@@ -34,7 +34,7 @@ sources:
 
 models:
   - name: fct_customers
-    description: "{{ doc('customers') }}"
+    description: '{{ doc("customers") }}'
     columns:
       - name: customer_id
         description: Primary key
